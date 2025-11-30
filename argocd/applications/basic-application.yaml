@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/rslim087a/argocd-kubernetes-gitops-tutorial.git
+    repoURL: https://github.com/zenki209/argocd-learning.git
     targetRevision: HEAD
     path: gitops/basic
   destination:
@@ -17,4 +17,4 @@ spec:
       prune: true
       selfHeal: true
     syncOptions:
-    - CreateNamespace=true
+      - CreateNamespace=true
