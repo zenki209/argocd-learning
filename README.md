@@ -11,6 +11,7 @@ To follow along with this tutorial, you'll need:
 - A GitHub account: ([https://github.com/](https://github.com/))
 
 ## Install ArgoCD on your Cluster
+
 ```
 helm repo add argo https://argoproj.github.io/argo-helm
 helm repo update
@@ -49,6 +50,7 @@ curl -X POST http://localhost:<port>/grades \
 ```
 
 To verify, you can get all grades with:
+
 ```bash
 curl http://localhost:<port>/grades
 ```
@@ -56,3 +58,7 @@ curl http://localhost:<port>/grades
 ## Become a Cloud and DevOps Engineer
 
 Learn every tool that matters: https://rayanslim.com
+
+## Reference Video
+
+[https://www.youtube.com/watch?v=yj4O0wwkMQI](https://www.youtube.com/watch?v=yj4O0wwkMQI)
